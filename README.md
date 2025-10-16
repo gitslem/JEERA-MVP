@@ -9,7 +9,7 @@ A full-stack, minimal JIRA-like application built with the MERN stack and Next.j
 ![create sprint](image-4.png)
 ![darkmode](image-5.png)
 ![analytics dashboard](image-6.png)
-![switch projct or sprint](image-7.png)
+
 
 -   **User Authentication:** Secure user registration and login with JWT and httpOnly cookies.
 -   **Project Management:** Create and manage distinct projects.
