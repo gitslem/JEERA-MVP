@@ -45,8 +45,8 @@ A full-stack, minimal JIRA-like application built with the MERN stack and Next.j
 
 1.  **Clone the repository:**
     ```sh
-    git clone https://github.com/KWATRA55/JIRA-MVP.git
-    cd JIRA-MVP
+    git https://jeera-mvp.netlify.app/register
+    cd JEERA-MVP
     ```
 
 2.  **Install all dependencies:**
