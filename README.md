@@ -7,7 +7,6 @@ A full-stack, minimal JIRA-like application built with the MERN stack and Next.j
 ![create issue](image-2.png)
 [create project](image-3.png)
 ![create sprint](image-4.png)
-![darkmode](image-5.png)
 ![analytics dashboard](image-6.png)
 
 
