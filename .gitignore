@@ -1,0 +1,14 @@
+# Dependencies
+/node_modules
+/client/node_modules
+/server/node_modules
+
+# Next.js build files
+/client/.next
+
+# Environment variables
+.env
+.env*.local
+
+# macOS folder
+.DS_Store

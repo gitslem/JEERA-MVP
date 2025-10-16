@@ -1,0 +1,30 @@
+{
+    "name": "jira-mvp",
+    "version": "1.0.0",
+    "description": "MVP JIRA-like application with Scrum board and sprints",
+    "main": "server/index.js",
+    "scripts": {
+        "dev": "concurrently \"npm run server\" \"npm run client\"",
+        "server": "cd server && nodemon index.js",
+        "client": "cd client && npm run dev",
+        "build": "cd client && npm run build",
+        "start": "cd server && npm start",
+        "install-deps": "npm install && cd server && npm install && cd ../client && npm install"
+    },
+    "devDependencies": {
+        "@netlify/plugin-nextjs": "^5.12.0",
+        "concurrently": "^8.2.2"
+    },
+    "keywords": [
+        "jira",
+        "scrum",
+        "kanban",
+        "project-management"
+    ],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "nodemon": "^3.1.10",
+        "serverless-http": "^3.2.0"
+    }
+}

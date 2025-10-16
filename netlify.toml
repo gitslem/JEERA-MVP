@@ -1,0 +1,21 @@
+# The final, correct Netlify configuration
+
+[build]
+  # This command ensures all dependencies are installed before building.
+  command = "npm run install-deps && npm run build"
+  
+  # This tells Netlify (and the plugin) where to find the finished Next.js site.
+  publish = "client/.next"
+  
+  # This tells Netlify where to find our serverless function.
+  functions = "netlify/functions"
+
+# This section correctly loads the Next.js plugin without any invalid inputs.
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+# This rule forwards all API requests to our serverless function.
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/api/:splat"
+  status = 200
